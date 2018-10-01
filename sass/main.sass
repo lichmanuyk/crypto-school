@@ -1,0 +1,288 @@
+@import "bourbon"
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.3
+	font-family: MyriadProRegular
+	overflow-x: hidden
+	color: #f1f0f0
+	a
+		color: #f1f0f0
+		&:hover, &:active, &:visited
+			color: #f1f0f0		
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+h1
+	font-size: 55px
+	font-family: $default-font
+h2
+	font-size: 36px
+	font-family: "MyriadProBold", sans-serif
+	text-align: center
+	margin-top: 60px
+	padding: 0
+	margin-bottom: 100px
+
+h3
+	font-size: 24px
+	font-family: "MyriadProBold", sans-serif
+	text-align: center
+	margin-top: 60px
+	padding: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sect_1
+	margin-top: -20px
+	padding-bottom: 30px
+	display: block
+	min-height: 850px
+	background-image: url("../img/s1_bg.jpg")
+	background-size: cover
+	background-position: center
+	.container
+		.mnu
+			margin-top: 45px
+			margin-bottom: 25px
+			ul
+				padding: 0
+				li
+					display: inline-block
+					padding-right: 31px
+					&:last-child
+						padding-right: 0
+					a
+						font-size: 16px
+						font-family: MyriadProSemiBold
+		.pnt
+			padding: 0
+			margin: 0
+			li
+				background-image: url("../img/pnt.png")
+				background-repeat: no-repeat
+				background-position: -5px -5px
+				list-style-type: none
+				padding: 13px 0
+				padding-left: 60px
+				font-size: 19px
+.btn_1
+	font-size: 22px
+	background-color: #69a4fc
+	padding: 15px 45px
+	border-radius: 12px	
+	margin-left: 20px
+	margin-top: 33px
+	border: none
+	box-shadow: 0 0 25px  #cf14f4
+	&:hover
+		box-shadow: 0 0 20px  #cf14f4
+		color: #cf14f4
+
+
+
+
+.sect_2
+	position: relative
+	background-color: #3b3b3b
+	display: block
+	min-height: 850px
+	padding-bottom: 30px
+	z-index: 2	
+	.sect2text
+		margin-top: 10px
+		font-size: 18px
+		font-family: "Arial", sans-serif
+	.thumb-wrap 
+	  position: relative
+	  padding-bottom: 36.25%
+	  height: 0
+	  overflow: hidden
+	  iframe
+		  position: absolute
+		  top: 0
+		  left: 0
+		  width: 100%
+		  height: 100%
+	.btc
+		position: absolute
+		right: 30px
+		bottom: -230px	
+		z-index: 	-1
+			  
+
+.sect_3
+	background-image: url("	../img/s3_bg.jpg")
+	min-height: 800px
+	background-size: cover
+	background-position: center
+	padding-bottom: 30px
+	font-size: 18px	
+	h2
+		margin-bottom: 40px	
+	.ici
+		margin-top: 70px	
+	.ici2
+		margin-top: 20px
+
+
+.sect_4
+	background-image: url("	../img/s4_bg.jpg")
+	min-height: 800px
+	background-size: cover
+	background-position: center
+	padding-bottom: 30px
+	font-size: 18px	
+	h2
+		margin-bottom: 0
+	.owl-carousel
+		position: relative
+		width: 100%
+		height: 450px
+		margin-top: 30px
+		.slide
+			img
+				height: 450px
+	.next
+		margin-top: 200px
+		margin-left: 40px
+	.prev
+		margin-top: 200px	
+		margin-left: 80px
+
+.sect_5
+	background-image: url("	../img/s5_bg.jpg")
+	min-height: 800px
+	background-size: cover
+	background-position: center
+	padding-bottom: 30px
+	font-size: 18px	
+	.wrap
+		position: relative
+		border-radius: 10px
+		background: linear-gradient(rgba(78, 100, 164, 0.8), rgba(131, 17, 152, 0.8))
+		text-align: center
+		padding: 0 35px
+		margin-bottom: 40px
+		min-height: 400px
+		font-size: 18px
+		font-family: "MyriadProBold", sans-serif
+		&:hover
+			background: linear-gradient(rgba(131, 17, 152, 0.8), rgba(78, 100, 164, 0.8))
+		.kryg
+			position: relative
+			margin: 20px auto
+			width: 30px
+			height: 30px
+			border-radius: 50%
+			background-color: #6a96fb
+			box-shadow: 0 0 25px  #cf14f4
+		ul
+			text-align: left
+			margin-top: 10px
+			padding-left: 25px
+			padding-right: 5px
+			font-size: 18px
+			font-family: "MyriadProRegular", sans-serif
+			li
+				padding: 2px 0
+	.ullast
+		padding-top: 20px
+
+.sect_6
+	background-image: url("	../img/s6_bg.jpg")
+	min-height: 800px
+	background-size: cover
+	background-position: center
+	padding-bottom: 30px
+	font-size: 18px	
+	.wrap_6
+		position: relative
+		margin-top: -40px
+		border-radius: 10px
+		background-color: #6c8cfa
+		padding: 1px 30px 5px
+		min-height: 310px
+	.wr
+		background-color: #d111f4
+		position: relative
+		z-index: 2
+		box-shadow: 0 0 30px  #111
+	.actia
+		font-family: "MyriadProBold", sans-serif
+		font-size: 32px	
+		margin-top: 15px
+		margin-bottom: 0
+		.cost
+			font-size: 46px
+			color: #69a4fc
+	.btn_1
+		margin-left: 0	
+	.wrp
+		position: relative
+		margin-top: 100px
+		min-height: 140px
+		img
+			margin-top: 15px
+		.abs
+			position: absolute
+			top: -320px
+			left: 120px
+
+footer
+	background-color: #131313
+	min-height: 100px
+	line-height: 100px
+	color: #3b3b3b
+	a
+		color: #3b3b3b
+		&:hover
+			color: #3b3b3b
+
+
+
+.center
+	text-align: center	
+@import "media" // Всегда в конце
